@@ -1,4 +1,4 @@
-package xyz.mattyb.openwest.kotlinprimer.chapter01
+package xyz.mattyb.openwest.kotlinprimer.chapter00
 
 fun main(args: Array<String>) {
     /**
@@ -36,7 +36,7 @@ fun main(args: Array<String>) {
      *
      *
      *
-     *
+     * Don't want to give away how functions work ;-)
      */
     println("Hello Kotlin")
     /**

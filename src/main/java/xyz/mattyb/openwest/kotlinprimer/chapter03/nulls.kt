@@ -1,4 +1,4 @@
-package xyz.mattyb.openwest.kotlinprimer.chapter01
+package xyz.mattyb.openwest.kotlinprimer.chapter03
 
 fun main(args: Array<String>) {
     /**
@@ -38,12 +38,17 @@ fun main(args: Array<String>) {
      *
      * Don't want to give away how functions work ;-)
      */
-    val percentLuck : Int = 10
-    val percentSkill : Int = 20
-    println("This is " + percentLuck + " percent luck")
-    println("$percentSkill percent skill")
     // Will it compile?
-    // percentLuck = 100
+    // val salary: Long = null
+    var salary: Long? = null
+
+    println("salary before job: $salary")
+
+    // Get a job
+    salary = 1_000_000_000_000_000
+
+    println("salary after job: $salary")
+
     /**
      *
      *
@@ -59,9 +64,17 @@ fun main(args: Array<String>) {
      *
      *
      *
+     *
+     *
+     *
+     *
+     *
+     *
      */
-    var percentConcentratedPowerOfWill = 5
-    percentConcentratedPowerOfWill *= 3
-//    println("$percentConcentratedPowerOfWill percent concentrated power of will")
 
+    val bob = Employee()
+
+    val headNameLength = bob?.department?.head?.name?.length
+
+    println("head name length: $headNameLength")
 }
